@@ -1,0 +1,78 @@
+
+.botones img{
+    width:100%;
+    height:100%;
+    
+}
+.conteiner{
+    display:flex;
+    margin: auto;
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+    border:5px solid rgba(2, 141, 146, 0.885);
+    padding: 10px;
+    flex-direction: column;
+    max-width: 300px;
+    background:rgb(0, 0, 0);
+
+
+}
+
+.whirite{
+
+    margin:auto;
+    width:99%;
+    height:50px;
+    margin-top: 30px;
+
+   
+}
+.whirite input{
+    height:100%;
+    width:97%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: rgb(7, 3, 3);
+    outline:none;
+    background:transparent;
+    background:rgba(182, 157, 157, 0.645) ;
+    border-radius: 5px;
+    font-size: 22px;
+}
+
+.grid__botones{
+    display:grid;
+    grid-template-rows:repeat(6,1fr);
+    grid-template-columns:repeat(4,1fr);
+   background:rgb(4, 0, 0);
+ 
+
+}
+
+.botones{
+    margin:3px;
+    height:50px;
+    border-radius: 19px;
+    border: 2px solid rgb(9, 0, 0);
+    border :2px solid rgba(115, 234, 238, 0.398);
+}
+.grid__botones input{
+    height:100%;
+    width:100%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background: rgb(1, 16, 4);
+    border-radius: 5px;
+  
+}
+
+
+.grid__botones :nth-child(7) input{
+    background-image: url("https://img.icons8.com/ios/55/ffffff/square-root.png");
+}
+
+.grid__botones :nth-child(8) input{
+    background-image: url("https://img.icons8.com/ios/55/ffffff/divide.png");
+}
